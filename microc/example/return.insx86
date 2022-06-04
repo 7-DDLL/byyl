@@ -1,0 +1,8 @@
+LDARGS 1
+CALL (1, "L1_main")
+STOP
+FLabel (1, "L1_main")
+CSTI 0
+RET 1
+INCSP 0
+RET 0
